@@ -67,3 +67,12 @@ graph TD
     B --> |If Tool Call| C[Tool Node]
     C --> B
     B --> |If Done| D[End]
+    
+### 🔭 What’s next?
+✅ Add memory for multi-turn context
+
+🌍 Real-time weather API
+
+🍽️ More useful tools (restaurant tips, reminders, etc.)
+
+🎨 Maybe build a web UI using React + FastAPI!
