@@ -37,7 +37,8 @@ It dynamically decides whether to respond directly or call tools based on user i
 
    ```bash
     git clone https://github.com/yourusername/agentic-ai-langgraph.git
-    cd agentic-ai-langgraph```
+    cd agentic-ai-langgraph
+```
 
 ### 2. Install dependencies
 You’ll need:
@@ -52,15 +53,15 @@ Create a .env file in the project root:
 OPENAI_API_KEY=your_openai_api_key_here
 
 
-📜 Sample Output
+### 📜 Sample Output
 You: What is the weather in Berlin and tell me something hilarious?
 
-🧠 Agent Memory (Full Messages So Far):
+### 🧠 Agent Memory (Full Messages So Far):
 1. [Human] What is the weather in Berlin and tell me something hilarious?
 2. [AI] The weather in Berlin is sunny with 30°C.
 3. [Function] Why don't scientists trust atoms? Because they make up everything!
 
-🧠 How It Works (LangGraph Flow)
+### 🧠 How It Works (LangGraph Flow)
 graph TD
     A[HumanMessage] --> B[LLM Node]
     B --> |If Tool Call| C[Tool Node]
