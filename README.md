@@ -35,11 +35,11 @@ It dynamically decides whether to respond directly or call tools based on user i
 
 ### 1. Clone the repo
 
-```bash
-git clone https://github.com/yourusername/agentic-ai-langgraph.git
-cd agentic-ai-langgraph
+   ```bash
+    git clone https://github.com/yourusername/agentic-ai-langgraph.git
+    cd agentic-ai-langgraph```
 
-**### 2. Install dependencies**
+### 2. Install dependencies
 You’ll need:
 
 ---langgraph
